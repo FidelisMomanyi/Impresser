@@ -16,7 +16,7 @@ class PitchModelTest(unittest.TestCase):
         self.assertEquals(self.new_pitch.pitch_title,'Test')
         self.assertEquals(self.new_pitch.pitch_content,'This is a test pitch')
         self.assertEquals(self.new_pitch.category,"interview")
-        self.assertEquals(self.new_pitch.user,self.user_Peris)
+        self.assertEquals(self.new_pitch.user,self.user_Fidelis)
 
     def test_save_pitch(self):
         self.new_pitch.save_pitch()
