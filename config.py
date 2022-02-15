@@ -5,7 +5,6 @@ class Config:
     General configuration parent class
     '''
     SECRET_KEY = 'fidepozee'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://user:o7i736687i@localhost/pitches'
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
     # email configurations
@@ -33,7 +32,7 @@ class TestConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://user:o7i736687i@localhost/pitches'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://user:admin123@localhost/user'
 
 class DevConfig(Config):
     '''
@@ -42,7 +41,7 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://user:o7i736687i@localhost/pitches'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://user:admin123@localhost/user'
 
     DEBUG = True
     ENV = 'development'
