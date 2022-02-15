@@ -1,10 +1,10 @@
-# Impresser
+# Pitches
 
 This project was generated with python version3.8
 
 ## Description
 
-Impresser is a web application that enables the users to submit their one-minute pitches and other users can leave comments to give their feedback on them. 
+Pitches is a web application that enables the users to submit their one-minute pitches and other users can leave comments to give their feedback on them. 
 
 ### Author
 
@@ -43,11 +43,12 @@ If you dont have this requirements you could use the link above to help with the
 
 ## Known Bugs
 
-* At the moment of cration there are no known bugs. If any contact me.
+* At the moment of creation there are no known bugs. If any contact me.
 
 ## Technologies Used
 
 1. Python3.8 - (Flask)
+2. SQLAlchemy
 
 ## Behaviour Driven Development (BDD)
 
